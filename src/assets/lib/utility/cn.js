@@ -1,7 +1,8 @@
 import { twMerge } from "tailwind-merge";
 import clsx from "clsx";
 
-export function cn (...classes) {
-    return twMerge(clsx(...classes))
-};
+function cn(...classes) {
+  return twMerge(clsx(...classes));
+}
 
+export default cn;

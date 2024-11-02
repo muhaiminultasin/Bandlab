@@ -1,6 +1,5 @@
 import React from 'react'
-import { cn } from '../../assets/lib/utility/cn';
-
+import cn from "../../assets/lib/utility/cn"
 function Button({Name,className}) {
   return (
     <div className='text-center md:text-start'>

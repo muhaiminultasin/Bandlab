@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from '../../assets/lib/utility/cn'
+import  cn  from '../../assets/lib/utility/cn'
 
 function Title({title, subtitle,titleClass, subtitleClass}) {
   return (
