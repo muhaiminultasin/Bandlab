@@ -55,8 +55,8 @@ function LandingIntro() {
 
         <div id="LandingIntro-bottom " className="bg-[#F1F4F6] pt-5 pb-10">
             <ul className="grid grid-cols-2 md:grid-cols-6 mb-5 px-[20px] md:px-[140px]">
-                {companyLogo.map(({img}) => {
-                    return <li className="flex justify-center"><img src={img} alt="" /></li>
+                {companyLogo.map(({img},i) => {
+                    return <li key={i} className="flex justify-center"><img src={img} alt="" /></li>
                 })}
             </ul>
 

@@ -23,7 +23,8 @@ function LandingUsp() {
         {
             img:"PBImage/release-icon.svg",
             title:"Earn from your music",
-            subtitle: "Keep 100% of the earnings received from your releases with BandLab Membership."
+            subtitle: "Keep 100% of the earnings received from your releases with BandLab Membership.",
+            button: "Get Paid"
         },
     ]
 
@@ -34,8 +35,8 @@ function LandingUsp() {
 
        <div className='py-10 grid grid-cols-1 md:grid-cols-4'>
             {
-                steps.map( ({img,title,subtitle},i)=> {
-                        return <Step key={i} img={img} title={title} subtitle={subtitle}/>
+                steps.map( ({img,title,subtitle,button},i)=> {
+                        return <Step key={i} img={img} title={title} subtitle={subtitle} button={i === steps.length - 1 ? button : undefined }/>
                 })
             }
        </div>

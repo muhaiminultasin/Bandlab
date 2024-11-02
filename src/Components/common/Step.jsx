@@ -1,7 +1,8 @@
 import React from 'react'
 import Title from './title'
+import Button from "./Button"
 
-function Step({img,title,subtitle,}) {
+function Step({img,title,subtitle,button}) {
   return (
     <div className='md:w-[220px] md:h-[290px]'>
       <div>
@@ -12,6 +13,7 @@ function Step({img,title,subtitle,}) {
          <div>
             <Title titleClass={"text-[22px]"} subtitleClass={"text-[14px]"} title={title} subtitle={subtitle}/>
          </div>
+         {button && <Button Name={button} className={"bg-[#E3E9ED] mt-5"} />}
       </div>
     </div>
   )
