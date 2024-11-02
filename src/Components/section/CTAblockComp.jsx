@@ -1,8 +1,8 @@
 import React from "react";
-import Title from "./title";
-import Button from "./Button";
+import Title from "../common/title";
+import Button from "../common/Button";
 import cn from "../../assets/lib/utility/cn";
-import StoreButton from "./StoreButton";
+import StoreButton from "../common/StoreButton";
 
 function CTAblockComp() {
 
@@ -17,7 +17,7 @@ const StoreButtons = [
       <div className={cn(`grid grid-cols-1 md:grid-cols-2 bg-[#E3E9ED] gap-5 px-[25px] md:px-[140px] py-[100px] items-center`)}>
       <div>
         <Title
-          titleClass={"text-[20px] md:text-[40px] font-bold"}
+          titleClass={"text-[25px] md:text-[40px] font-[500]"}
           subtitleClass={"text-[#7E8999] text-base font-[400]"}
           title={"Keep 100% of your earnings"}
           subtitle={
@@ -43,7 +43,7 @@ const StoreButtons = [
 
       <div>
         <Title
-          titleClass={"text-[25px] md:text-[40px] font-bold"}
+          titleClass={"text-[25px] md:text-[40px] font-[500]"}
           subtitleClass={"text-[#7E8999] text-base font-[400]"}
           title={"Get your music out there faster"}
           subtitle={

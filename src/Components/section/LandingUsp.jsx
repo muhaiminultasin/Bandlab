@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from './common/title'
-import Step from './common/Step'
+import Title from '../common/title'
+import Step from '../common/Step'
 
 function LandingUsp() {
 

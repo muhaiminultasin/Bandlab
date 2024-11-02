@@ -1,16 +1,21 @@
 import React from "react";
 import Navbar from "./common/Navbar";
-import LandingIntro from "./LandingIntro";
-import LandingUsp from "./LandingUsp";
-import CTAblock from "./common/CTAblockComp";
+import LandingIntro from "./section/LandingIntro"
+import LandingUsp from "./section/LandingUsp";
+import CTAblockComp from "./section/CTAblockComp"
+import CTAadaptiveComp from "./section/CTAadaptiveComp";
+import Membership from "./section/Membership";
+
 
 function Page() {
   return (
     <>
       <Navbar />
-      <LandingIntro />
-      <LandingUsp />
-      <CTAblock />
+      <LandingIntro/>
+      <LandingUsp/>
+      <CTAblockComp/>
+      <CTAadaptiveComp/>
+      <Membership/>
     </>
   );
 }
