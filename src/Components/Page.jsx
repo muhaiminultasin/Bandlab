@@ -6,6 +6,7 @@ import CTAblockComp from "./section/CTAblockComp"
 import CTAadaptiveComp from "./section/CTAadaptiveComp";
 import Membership from "./section/Membership";
 import SingUpBlock from "./section/SingUpBlock";
+import Footer from "./section/Footer";
 
 
 function Page() {
@@ -18,6 +19,7 @@ function Page() {
       <CTAadaptiveComp/>
       <Membership/>
       <SingUpBlock/>
+      <Footer/>
     </>
   );
 }

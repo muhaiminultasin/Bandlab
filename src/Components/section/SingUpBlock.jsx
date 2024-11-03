@@ -10,8 +10,8 @@ function SingUpBlock() {
       </div>
 
       <div className="flex flex-col md:flex-row md:gap-5 justify-center ">
-        <StoreButton className={"bg-[#1877F2] text-white rounded-full py-2 px-4 w-full md:w-fit "} img={"./PBImage/facebook-logo-1-2.png"} title={"Continue with Facebook"}  />
-        <StoreButton className={"bg-white text-black rounded-full py-2 px-4 w-full md:w-fit"} img={"./PBImage/google.png"} title={"Continue with Google"}  />
+        <StoreButton className={"bg-[#1877F2] text-white font-[500] rounded-full py-2 px-4 w-full md:w-fit "} img={"./PBImage/facebook-logo-1-2.png"} title={"Continue with Facebook"}  />
+        <StoreButton className={"bg-white text-black font-[500] rounded-full py-2 px-4 w-full md:w-fit"} img={"./PBImage/google.png"} title={"Continue with Google"}  />
         </div>
     </section>
   )

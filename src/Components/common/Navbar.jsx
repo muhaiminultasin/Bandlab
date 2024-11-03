@@ -5,15 +5,15 @@ function Navbar() {
 
   const NavItems = [
     {
-      Name: "Products",
+      Name: "Support",
       link:"/Products"
     },
     {
-      Name: "App",
+      Name: "Contact",
       link:"/Products"
     },
     {
-      Name: "Blog",
+      Name: "About",
       link:"/Products"
     },
     {
@@ -34,7 +34,7 @@ function Navbar() {
           <ul className='flex justify-between items-center text-white space-x-3  '>
             {
               NavItems.map( ({Name, link},i) => {
-                return <li key={i} className='font-[600]'>{Name}</li>
+                return <li key={i} className='font-[600] cursor-pointer'>{Name}</li>
               })
             }
           </ul>
