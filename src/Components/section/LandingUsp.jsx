@@ -33,10 +33,10 @@ function LandingUsp() {
       <Title titleClass={"text-[25px] md:text-[40px] font-[500] md:text-center md:leading-8"}
        subtitleClass={"md:text-center text-[16px]"} title={"Music distribution in 4 easy steps"} subtitle={"Sell your music online, fast - with BandLab Distribution. Available on both web and mobile."}/>
 
-       <div className='py-10 grid grid-cols-1 md:grid-cols-4'>
+       <div className='py-10 grid grid-cols-1 md:flex flex-wrap'>
             {
                 steps.map( ({img,title,subtitle,button},i)=> {
-                        return <Step key={i} img={img} title={title} subtitle={subtitle} button={i === steps.length - 1 ? button : undefined }/>
+                        return <Step className={"mx-auto"} key={i} img={img} title={title} subtitle={subtitle} button={i === steps.length - 1 ? button : undefined }/>
                 })
             }
        </div>

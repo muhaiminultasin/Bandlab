@@ -7,6 +7,7 @@ import CTAadaptiveComp from "./section/CTAadaptiveComp";
 import Membership from "./section/Membership";
 import SingUpBlock from "./section/SingUpBlock";
 import Footer from "./section/Footer";
+import MobileMenu from "./common/MobileMenu";
 
 
 function Page() {
@@ -20,6 +21,8 @@ function Page() {
       <Membership/>
       <SingUpBlock/>
       <Footer/>
+
+      <MobileMenu/>
     </>
   );
 }

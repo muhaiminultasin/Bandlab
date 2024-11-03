@@ -1,10 +1,11 @@
 import React from 'react'
 import Title from './title'
 import Button from "./Button"
+import cn from '../../assets/lib/utility/cn'
 
-function Step({img,title,subtitle,button}) {
+function Step({img,title,subtitle,button,className}) {
   return (
-    <div className='md:w-[220px] md:h-[290px]'>
+    <div className={cn(`md:w-[220px] md:h-[290px]`, className)}>
       <div>
          <div className='w-fit bg-[#F0F3F5] p-2 rounded-md mb-5 mx-auto md:mx-0' >
             <img src={img} alt="" className=''/>
