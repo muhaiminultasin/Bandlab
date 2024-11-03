@@ -4,7 +4,7 @@ import StoreButton from "../common/StoreButton"
 
 function SingUpBlock() {
   return (
-    <section className='bg-[url(./PBImage/equipment.jpg)] bg-center  bg-no-repeat px-[20px] md:px-[140px] py-[100px] opacity-100'>
+    <section className='bg-[url(/PBImage/equipment.jpg)] bg-center  bg-no-repeat px-[20px] md:px-[140px] py-[100px] opacity-100'>
       <div>
         <Title titleClass={"text-[25px] md:text-[40px] text-white md:text-center max-w-[700px"} subtitleClass={"text-white"} title={"Join a global movement of over 100 million creators and fans."} subtitle={"BandLab is the next-generation music creation platform used by millions around the world to make and share their music. Sign up today (it’s free!) and discover a whole new world of creativity."}/>
       </div>
