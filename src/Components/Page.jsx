@@ -5,6 +5,7 @@ import LandingUsp from "./section/LandingUsp";
 import CTAblockComp from "./section/CTAblockComp"
 import CTAadaptiveComp from "./section/CTAadaptiveComp";
 import Membership from "./section/Membership";
+import SingUpBlock from "./section/SingUpBlock";
 
 
 function Page() {
@@ -16,6 +17,7 @@ function Page() {
       <CTAblockComp/>
       <CTAadaptiveComp/>
       <Membership/>
+      <SingUpBlock/>
     </>
   );
 }

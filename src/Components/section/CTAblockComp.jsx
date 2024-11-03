@@ -52,8 +52,8 @@ const StoreButtons = [
         />
 
         <div className="flex gap-5 justify-center md:justify-start">
-        <StoreButton img={"./PBImage/apple-logo-02.png"} title={"App Store"} subtitle={"Download on"} />
-        <StoreButton img={"./PBImage/pl-logo.webp"} title={"Play Store"} subtitle={"Download on"} />
+        <StoreButton className={"bg-black"} img={"./PBImage/apple-logo-02.png"} title={"App Store"} subtitle={"Download on"} />
+        <StoreButton className={"bg-black"} img={"./PBImage/pl-logo.webp"} title={"Play Store"} subtitle={"Download on"} />
         </div>
       </div>
       
