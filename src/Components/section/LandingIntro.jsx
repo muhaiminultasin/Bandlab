@@ -36,9 +36,9 @@ function LandingIntro() {
               "text-[#ffffff] max-w-[550px] text-[30px] md:text-[35px] lg:text-[70px] md:leading-[45px] lg:leading-[90px]"
             }
             subtitleClass={"text-[#ffffff]  lg:max-w-[430px] leading-6"}
-            title={"Create today, go global tomorrow"}
+            title={"Sell Your Music With ---- CIPROXIN LLC"}
             subtitle={
-              "Music distribution made easy. Get your music on major platforms. Keep 100% earnings with BandLab Membership."
+              "Get your music on Spotify, Apple Music, iTunes, TIDAL, TikTok, Amazon, and more. Keep 80% of your earnings with us!"
             }
           />
           <Button btnPosition={"text-center lg:text-start"} className={"py-4 px-5 mt-5"} Name={"Try it Now"} />

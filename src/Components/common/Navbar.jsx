@@ -43,11 +43,11 @@ function Navbar() {
         </div>
 
         <div className='block lg:hidden '>
-            <div className='flex flex-col space-y-1'>
+            <button className='flex flex-col space-y-1'>
               <span className='w-[30px] h-[3px] bg-white'> </span>
               <span className='w-[30px] h-[3px] bg-white'> </span>
               <span className='w-[30px] h-[3px] bg-white'> </span>
-            </div>
+            </button>
         </div>
 
         

@@ -7,23 +7,23 @@ function LandingUsp() {
     const steps = [
         {
             img:"PBImage/music-icon.svg",
-            title:"Add your music",
-            subtitle: "Access Distribution on any device with BandLab Membership. Select single or multi-tracks for release."
+            title:"Upload Your Music",
+            subtitle: "Access the CIPROXIN LLC Dashboard through Contact with  Us. Release a single or multiple tracks."
         },
         {
             img:"PBImage/details-icon.svg",
-            title:"Enter your details",
-            subtitle: "Enter your release details, add cover art and submit it for swift review by BandLab."
-        },
-        {
-            img:"PBImage/earn-icon.svg",
-            title:"Release your music",
-            subtitle: "Once approved, your track will be sent out to DSPs. Distribution times will vary based on store."
+            title:"Provide Your Release Details",
+            subtitle: "Fill out your release information, upload cover art, and submit it for a quick review by CIPROXIN LLC team."
         },
         {
             img:"PBImage/release-icon.svg",
-            title:"Earn from your music",
-            subtitle: "Keep 100% of the earnings received from your releases with BandLab Membership.",
+            title:"Release Your Tracks",
+            subtitle: "Once approved, your music will be distributed to digital streaming platforms. Please note that distribution times may vary by store."
+        },
+        {
+            img:"PBImage/earn-icon.svg",
+            title:"Profit from Your Music",
+            subtitle: "With CIPROXIN LLC you receive 80% of the earnings from your releases.",
             button: "Get Paid"
         },
     ]
@@ -31,12 +31,12 @@ function LandingUsp() {
   return (
     <section className='py-[80px] px-[20px] md:px-[70px] lg:px-[140px]'>
       <Title titleClass={"text-[25px] md:text-[35px] lg:text-[40px] font-[500] md:text-center md:leading-8"}
-       subtitleClass={"md:text-center text-[16px]"} title={"Music distribution in 4 easy steps"} subtitle={"Sell your music online, fast - with BandLab Distribution. Available on both web and mobile."}/>
+       subtitleClass={"md:text-center text-[16px]"} title={"Distribute your music in four simple steps!"} subtitle={"Sell your tracks online quickly with CIPROXIN LLC Distribution,"}/>
 
        <div className='grid grid-cols-1 sm:grid-cols-2 md:flex flex-wrap'>
             {
-                steps.map( ({img,title,subtitle,button},i)=> {
-                        return <Step className={"mx-auto mt-10 "} key={i} img={img} title={title} subtitle={subtitle} button={i === steps.length - 1 ? button : undefined }/>
+                steps.map( ({img,title,subtitle},i)=> {
+                        return <Step className={"mx-auto mt-10 "} key={i} img={img} title={title} subtitle={subtitle} />
                 })
             }
        </div>

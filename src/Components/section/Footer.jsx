@@ -139,7 +139,7 @@ function Footer() {
 
       <div className='spcial-icons py-5 grid gap-7 grid-cols-1 sm:grid-cols-2 md:grid-cols-2'>
           <div className='icons'>
-            <ul className='flex items-center gap-5'>
+            <ul className='flex justify-center md:justify-start items-center gap-5'>
               {
                 FooterIcons.map( ({img, Link}) => {
                   return <li className='bg-[#E8ECF0] w-fit p-1 sm:p-2  rounded-full'><a href={Link}><img src={img} className='w-[20px]' alt="" /></a></li>
