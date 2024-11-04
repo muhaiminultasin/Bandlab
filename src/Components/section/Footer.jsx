@@ -125,7 +125,7 @@ function Footer() {
   ]
 
   return (
-    <footer className='py-10 px-[20px] md:px-[140px]'>
+    <footer className='py-10 px-[20px]  md:px-[70px] lg:px-[140px]'>
       <div className="main">
         <img src="./PBImage/bandlab-logotype.svg" alt="" className='my-3'/>
 
@@ -137,12 +137,12 @@ function Footer() {
         </div>
       </div>
 
-      <div className='spcial-icons py-5 grid gap-7 grid-cols-1 md:grid-cols-2'>
+      <div className='spcial-icons py-5 grid gap-7 grid-cols-1 sm:grid-cols-2 md:grid-cols-2'>
           <div className='icons'>
             <ul className='flex items-center gap-5'>
               {
                 FooterIcons.map( ({img, Link}) => {
-                  return <li className='bg-[#E8ECF0] w-fit p-3 rounded-full'><a href={Link}><img src={img} className='w-[20px]' alt="" /></a></li>
+                  return <li className='bg-[#E8ECF0] w-fit p-1 sm:p-2  rounded-full'><a href={Link}><img src={img} className='w-[20px]' alt="" /></a></li>
                 })
               }
             </ul>

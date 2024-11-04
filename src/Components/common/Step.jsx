@@ -12,7 +12,7 @@ function Step({img,title,subtitle,button,className}) {
          </div>
 
          <div>
-            <Title titleClass={"text-[22px]"} subtitleClass={"text-[14px]"} title={title} subtitle={subtitle}/>
+            <Title titleClass={"text-[18px] md:text-[20px] lg:text-[24px]"} subtitleClass={"text-[14px]"} title={title} subtitle={subtitle}/>
          </div>
          {button && <Button Name={button} className={"bg-[#E3E9ED] mt-5"} />}
       </div>

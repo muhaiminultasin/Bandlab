@@ -20,16 +20,18 @@ function Membership() {
     ]
 
   return (
-    <section className='px-[20px] bg-[#E3E9ED] md:px-[100px] py-[100px] frid-cols-1 md:grid grid-cols-2 items-center gap-10 md:gap-5'>
+    <section className=' bg-[#E3E9ED] px-[20px] md:px-[70px] lg:px-[170px] py-[100px] frid-cols-1 md:grid grid-cols-2 items-center gap-10 md:gap-5'>
       <div>
-        <Title title={"Comes with your Membership"} titleClass={"text-[25px] md:text-[40px] font-[500]"}/>
+        <Title title={"Comes with your Membership"} titleClass={"text-[25px] md:text-[35px] lg:text-[40px] font-[500]"}/>
 
-        <div className='tags flex flex-wrap gap-5'>
+        <div className='tags '>
+            <ul className='flex flex-wrap gap-2'>
             {
                 tags.map( ({title},i) => {
-                    return <Button key={i} Name={title} className={"bg-white text-[14px]"}/>
+                    return <li><Button key={i} Name={title} className={"bg-white text-[14px]"}/></li>
                 })
             }
+            </ul>
         </div>
 
         <Title subtitleClass={"text-[#7E8999]"} subtitle={"Enjoy BandLab Distribution, along with a full suite of artist-centric features under BandLab Membership."}/>

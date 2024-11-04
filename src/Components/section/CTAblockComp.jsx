@@ -6,15 +6,11 @@ import StoreButton from "../common/StoreButton";
 
 function CTAblockComp() {
 
-const StoreButtons = [
-  {
-    img:""
-  },
-]
+
 
   return (
     <section>
-      <div className={cn(`grid grid-cols-1 md:grid-cols-2 bg-[#E3E9ED] gap-5 px-[25px] md:px-[140px] py-[100px] items-center`)}>
+      <div className={cn(`grid grid-cols-1 md:grid-cols-2 bg-[#E3E9ED] gap-5 px-[20px]  md:px-[70px] lg:px-[140px] py-[100px] items-center`)}>
       <div>
         <Title
           titleClass={"text-[25px] md:text-[40px] font-[500]"}
@@ -27,7 +23,7 @@ const StoreButtons = [
 
         <Button
           Name={"Start Earning"}
-          className={"py-3 text-white bg-[#000000] mt-5"}
+          className={"py-3  text-white bg-[#000000] mt-5"}
         />
       </div>
       <div>
@@ -35,7 +31,7 @@ const StoreButtons = [
       </div>
     </div>
 
-    <div className={cn(`grid grid-cols-1 md:grid-cols-2  gap-5 px-[20px] md:px-[140px] py-[100px] items-center`)}>
+    <div className={cn(`grid grid-cols-1 md:grid-cols-2  gap-5 px-[20px] md:px-[70px] lg:px-[140px] py-[100px] items-center`)}>
 
     <div>
         <img src="./PBImage/distro-landing-publish_2x.png" alt="" />
@@ -43,7 +39,7 @@ const StoreButtons = [
 
       <div>
         <Title
-          titleClass={"text-[25px] md:text-[40px] font-[500]"}
+          titleClass={"text-[25px] md:text-[35px] lg:text-[40px] font-[500]"}
           subtitleClass={"text-[#7E8999] text-base font-[400]"}
           title={"Get your music out there faster"}
           subtitle={

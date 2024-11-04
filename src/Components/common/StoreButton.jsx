@@ -9,7 +9,7 @@ function StoreButton({ img, title,subtitle,className}
             <img src={img} alt="" className='block w-[25px]'/>
             <div>
                 <p className="text-[10px] font-[300]">{subtitle} </p>
-                <h1 className={cn(`font-[400] text-[14px]`,className)}>{title}</h1>
+                <h1 className={cn(`font-[400] md:text-[14px]`,className)}>{title}</h1>
             </div>
       </button>
     </div>

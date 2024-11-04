@@ -4,7 +4,7 @@ import Button from "../common/Button";
 
 function CTAadaptiveComp() {
   return (
-    <section className="bg-[#E3E9ED] pt-[50px] px-[20px] md:px-[140px]">
+    <section className="bg-[#E3E9ED] pt-[50px] px-[20px]  md:px-[70px] lg:px-[140px]">
       <div className="">
         <div className="flex gap-5 items-center justify-center">
           <img src="./PBImage/apple-black.png" alt="" className="w-[40px]" />
@@ -23,7 +23,7 @@ function CTAadaptiveComp() {
         <div className="py-5 text-center">
           <Title
             titleClass={
-              "text-[25px] md:text-[40px] font-[500] md:text-center md:leading-0"
+              "text-[25px] md:text-[30px] font-[500] md:text-center md:leading-0"
             }
             subtitleClass={"text-[#7E8999] text-base font-[400] md:text-center"}
             title={"Creation and digital distribution in one place"}

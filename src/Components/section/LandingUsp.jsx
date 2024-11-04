@@ -29,19 +29,17 @@ function LandingUsp() {
     ]
 
   return (
-    <section className='py-[120px] px-[20px] md:px-[140px]'>
-      <Title titleClass={"text-[25px] md:text-[40px] font-[500] md:text-center md:leading-8"}
+    <section className='py-[80px] px-[20px] md:px-[70px] lg:px-[140px]'>
+      <Title titleClass={"text-[25px] md:text-[35px] lg:text-[40px] font-[500] md:text-center md:leading-8"}
        subtitleClass={"md:text-center text-[16px]"} title={"Music distribution in 4 easy steps"} subtitle={"Sell your music online, fast - with BandLab Distribution. Available on both web and mobile."}/>
 
-       <div className='py-10 grid grid-cols-1 md:flex flex-wrap'>
+       <div className='grid grid-cols-1 sm:grid-cols-2 md:flex flex-wrap'>
             {
                 steps.map( ({img,title,subtitle,button},i)=> {
-                        return <Step className={"mx-auto"} key={i} img={img} title={title} subtitle={subtitle} button={i === steps.length - 1 ? button : undefined }/>
+                        return <Step className={"mx-auto mt-10 "} key={i} img={img} title={title} subtitle={subtitle} button={i === steps.length - 1 ? button : undefined }/>
                 })
             }
        </div>
-
-
     </section>
   )
 }
